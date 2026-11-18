@@ -1,12 +1,12 @@
 (() => {
     "use strict";
     const images = [
-        "./img/ratrak.jpg",
-        "./img/shlift.jpg",
-        "./img/skier.jpg",
-        "./img/snow.jpeg",
-        "./img/stanok.jpeg",
-        "./img/night.jpg"
+        "./ratrak.jpg",
+        "./shlift.jpg",
+        "./skier.jpg",
+        "./snow.jpeg",
+        "./stanok.jpeg",
+        "./night.jpg"
     ];
     const image = document.getElementById("main-image");
     if (!image || images.length < 2) return;
