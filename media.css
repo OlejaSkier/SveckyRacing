@@ -1,0 +1,48 @@
+@media (max-width: 700px) {
+    .body { width: 100%; margin: 0; border-left: 0; border-right: 0; }
+    .header { min-height: 0; padding: 14px 16px 18px; flex-wrap: wrap; gap: 14px; }
+    .brand-mark { flex: 1 1 100%; }
+    .logo_svecky { width: 190px; max-height: 58px; }
+    .header-buttons { width: 100%; justify-content: flex-start; gap: 8px; }
+    .header-buttons a { flex: 1; min-height: 42px; padding: 8px 9px; font-size: 10px; text-align: center; }
+    .header-stamp { position: absolute; right: 18px; top: 18px; font-size: 10px; }
+    .first_section { padding: 48px 20px 34px; }
+    .svecky-main { font-size: clamp(45px, 13vw, 68px); }
+    .first-paragraf { margin: 20px 0; line-height: 1.65; }
+    .structure-button-section, .contacts-button-section { min-height: 52px; padding: 0 15px; font-size: 15px; }
+    .second-section { padding: 0 14px; }
+    .main-images { height: 235px; }
+    .third-section { display: block; padding: 48px 20px; }
+    .third-section-title { margin-bottom: 20px; }
+    .first-spisok li { font-size: 14px; }
+    .third-section-etc { margin-top: 20px; }
+    .third-section-button { padding: 34px 20px 0; }
+    .contacts-button-section { margin-bottom: 30px; }
+    .section-heading { gap: 10px; flex-wrap: wrap; }
+    .section-heading .eyebrow { flex-basis: 100%; }
+    .structure-title { font-size: 38px; }
+    .structure-up { width: 36px; height: 36px; }
+    .fourth-section { padding: 36px 20px 45px; }
+    .fourth-section-paragraf { font-size: 14px; }
+    .spisok { grid-template-columns: 1fr; gap: 0; padding: 20px 0; }
+    .second-spisok, .third-spisok { font-size: 13px; }
+    .contacts { margin: 0 12px 35px; padding: 54px 18px 38px; }
+    .contacts::before, .contacts::after { font-size: 10px; letter-spacing: 4px; }
+    .contacts::before { left: 10px; } .contacts::after { right: 10px; }
+    .contacts-up { right: 15px; top: 42px; font-size: 24px; }
+    .phone { font-size: 20px; }
+    .footer { padding: 20px; }
+    .footer-contacts { flex-wrap: wrap; justify-content: center; text-align: center; gap: 12px 20px; }
+    .author, .email-footer, .instagram { font-size: 10px; }
+    .body::before, .body::after { width: 80px; opacity: .07; }
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+    .body { width: calc(100% - 28px); }
+    .first_section { padding-top: 65px; }
+    .third-section, .third-section-button, .fourth-section, .contacts { max-width: 900px; }
+    .main-images { height: 390px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
